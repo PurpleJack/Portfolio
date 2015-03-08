@@ -1,0 +1,7 @@
+{
+  "name": "portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}
