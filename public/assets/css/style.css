@@ -1,0 +1,108 @@
+
+header, #contact{
+    background-color: #F6C72E;
+}
+
+header .img-circle{
+    border:15px solid #40BFCB;
+}
+
+header .container{
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+header h1, #contact h1{
+    color: #FFF;
+}
+
+header hr, #contact hr{
+    height: 6px;
+    border: 1px solid #40BFCB;
+    border-radius: 7px 7px 7px 7px;
+    background-color: #40BFCB;
+    width:50%;
+}
+
+h1{
+    font-size: 66.5px;
+    font-family: 'Alfa Slab One' !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 81px;
+    letter-spacing: 1px;
+}
+
+.skills{
+    color: #566371;
+}
+
+.hash_intro{
+    color: #F39321;
+}
+
+
+body{
+    font-family: 'Dosis',sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFF;
+}
+
+section{
+    background-color: #566371;
+}
+
+section h1{
+    color: #40BFCB;
+}
+
+section hr{
+    height: 6px;
+    border: 1px solid #F6C72E;
+    border-radius: 7px 7px 7px 7px;
+    background-color: #F6C72E;
+    width:50%;
+}
+
+#contact input, #contact textarea{
+    background-color: #FAE396;
+    font-weight:600;
+    font-size:21px;
+    height: 50px;
+    border: none;
+}
+
+.input-group-addon{
+    border: none;
+    background-color: #F39321;
+}
+
+.icon{
+    color: #FFF;
+    font-size:150%;
+}
+/*Pour que l'icon user soit de la même taille que les autres! */
+.fa-user{
+    font-size:200%;
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:1200px){
+    header .container{
+        padding-top:250px;
+        padding-bottom:200px;
+    }
+
+    section{
+        padding-top:250px;
+        padding-bottom:250px;
+    }
+}

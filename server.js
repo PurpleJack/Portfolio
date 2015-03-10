@@ -1,10 +1,17 @@
-var express = require('express');
-var app = express();
-var path = require('path');
-var port = process.env.PORT || 80;
+var express     = require('express');
+var app         = express();
+var path        = require('path');
+var port        = process.env.PORT || 80;
+var morgan      = require('morgan'); //use to see requests
+
+//CONFIG
+//============================================================
 
 //set the public folder to serve publis assets
 app.use(express.static(__dirname + '/public'));
+
+//log all requests to the console
+app.use(morgan('dev'));
 
 //ROUTES
 //============================================================
