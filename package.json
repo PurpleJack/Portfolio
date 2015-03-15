@@ -3,7 +3,6 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.12.2",
-    "morgan": "^1.5.1",
-    "normalize.css": "^3.0.2"
+    "morgan": "^1.5.1"
   }
 }
